@@ -1,0 +1,359 @@
+.fr{
+  float: right;
+}
+.fl{
+  float: left;
+}
+.mt10{
+  margin-top: 10px;
+}
+.mt12{
+  margin-top: 12px;
+}
+.mt18{
+  margin-top: 18px;
+}
+.mt20{
+  margin-top: 20px;
+}
+.mt30{
+  margin-top: 30px;
+}
+.mt40{
+  margin-top: 40px;
+}
+.ml10{
+  margin-left: 10px;
+}
+.ml12{
+  margin-left: 12px;
+}
+.ml18{
+  margin-left: 18px;
+}
+.mtl0{
+  margin-left: 20px;
+}
+.ml30{
+  margin-left: 30px;
+}
+.ml40{
+  margin-left: 40px;
+}
+.mr10{
+  margin-right: 10px;
+}
+.mr12{
+  margin-right: 12px;
+}
+.mr18{
+  margin-right: 18px;
+}
+.mr20{
+  margin-right: 20px;
+}
+.mr30{
+  margin-right: 30px;
+}
+.mr40{
+  margin-right: 40px;
+}
+.mg0{
+  margin-left: 0!important;
+  margin-right: 0!important;
+}
+/* 颜色定义 */
+.green{
+  color:#259788;
+}
+.blue{
+  color: #3777C7;
+}
+.orange{
+  color:#F5A360;
+}
+
+/*左侧菜单*/
+.el-menu{
+  border-right:0;
+  background: none;
+  margin: 30px 0;
+}
+.el-menu-item{
+  text-align: left;
+  font-size: 12px;
+}
+.el-menu-item:hover{
+  background: none;
+}
+.el-menu-item i.iconfont{
+  margin-right: 15px;
+}
+/*页脚*/
+.el-footer{
+  position: fixed;
+  bottom: 0;
+}
+/*顶部导航*/
+.el-header{
+  padding: 0 0;
+}
+.header .el-menu{
+  margin: 0;
+}
+.header .el-menu.el-menu--horizontal{
+  border-bottom: none;
+}
+.header .el-menu--horizontal>.el-menu-item{
+  line-height: 14px;
+  font-size: 12px;
+}
+.header .el-menu-item i.iconfont{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+}
+.header .el-menu-item.is-active {
+  animation: 2s infinite;
+  font-size: 12px;
+  color: #909399;
+}
+
+.header .el-menu--horizontal .el-menu-item:not(.is-disabled):focus,
+.header .el-menu--horizontal .el-menu-item:not(.is-disabled):hover {
+  color: #909399;
+  background: none !important;
+
+}
+.header .el-menu-item:last-child {
+  margin-right: 15px !important;
+}
+.header .el-menu-item:first-child {
+  margin-left: 15px !important;
+}
+/*图标按钮*/
+.hidden_btn{
+  border: none;
+  padding: 0;
+  background: none;
+}
+.hidden_btn:hover{
+  border: none;
+  padding: 0;
+  background: none;
+  color: #5BC0DE;
+}
+.el-main{
+  padding: 10px;
+}
+.el-container{
+  overflow: hidden;
+}
+/*表单输入框*/
+.li_input .el-input__inner{
+  background: none;
+  border: 1px solid #aaa;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 50px;
+}
+.li_input .el-select .el-input__inner{
+  width: 100px;
+  border: none!important;
+  line-height: 40px;
+}
+.li_input2 .el-form-item{
+  margin-bottom: 0;
+
+}
+.li_input2 .el-form-item__content{
+  margin-top: 5px;
+  line-height: 30px;
+}
+.li_input2 .el-input__inner{
+  border: 1px solid #eee;
+  line-height: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50px;
+}
+/*导航搜索条*/
+.breadcrumb h4{
+  font-weight: 700;
+  font-size: 13px;
+  color: #262626;
+}
+.breadcrumb .el-input__inner{
+  background: none;
+  border: 1px solid #aaa;
+  border-right: none;
+  height: 32px;
+  line-height: 32px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.breadcrumb .el-input-group__append, .breadcrumb .el-input-group__prepend{
+  background:none;
+  border: 1px solid #aaa;
+  border-left: none;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+}
+/*卡片清晰化分类样式*/
+.li_card-box{
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background: #fff;
+  border: 1px solid #dfdfdf;
+  overflow: hidden;
+}
+.li_card-box_lid{
+  background: #f5f5f5;
+  border-bottom: 1px solid #eee;
+  line-height: 36px;
+  height: 36px;
+  color: #262626;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.el-carousel__container {
+  position: relative;
+  height: 280px;
+}
+/*配置数据源*/
+.data_source-box .el-radio__input.is-checked+.el-radio__label{
+  color: #5BC0DE;
+}
+.el-radio__input.is-checked .el-radio__inner{
+  border-color: #5BC0DE;
+  background: #5BC0DE;
+}
+/*添加监控分步图标*/
+.el-steps{
+  display: block;
+}
+.el-step__main {
+}
+.el-step__icon-inner{
+  font-weight: 300;
+  float: left;
+  transform:rotate(0deg);
+  -ms-transform:rotate(0deg); 	/* IE 9 */
+  -moz-transform:rotate(0deg); 	/* Firefox */
+  -webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+  -o-transform:rotate(0deg); 	/* Opera */
+}
+.el-step__title{
+  font-size: 14px;
+  line-height: 100px!important;
+}
+.el-step__icon{
+  border-radius: 60px;
+}
+.el-step__icon.is-icon{
+  width: 54px;
+  height: 54px;
+}
+/*正在进行的状态*/
+.is-finish .el-step__icon{
+  background:#7AB1F9;
+  color: #fff;
+  border-left: 3px solid #7AB1F9 ;
+  border-top: 3px solid #7AB1F9 ;
+  border-right: 3px solid #7AB1F9;
+  border-bottom: 3px solid #7AB1F9;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+}
+.el-step__head.is-finish .el-step__icon .el-step__icon-inner{
+
+}
+.el-step.is-horizontal{
+  width: 33.33333%;
+}
+.is-process .el-step__icon .el-step__icon-inner{
+  transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+}
+.el-step__head.is-finish i.el-step__line-inner {
+  border-width: 0!important;
+  border-top-width: 3px!important;
+  border-style: dashed;
+  border-color: #7AB1F9;
+  margin-top: -3px;
+}
+.el-step.is-horizontal .el-step__line{
+  height: 0!important;
+}
+/*完成的状态*/
+.el-step__title.is-process{
+  color: #7AB1F9;
+  font-weight: 300!important;
+}
+.is-process .el-step__icon{
+  background:#fff;
+  color: #7AB1F9;
+  border-left: 3px solid #e3eefc ;
+  border-top: 3px solid #7AB1F9 ;
+  border-right: 3px solid #7AB1F9;
+  border-bottom: 3px solid #7AB1F9;
+  transform:rotate(45deg);
+  -ms-transform:rotate(45deg); 	/* IE 9 */
+  -moz-transform:rotate(45deg); 	/* Firefox */
+  -webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+  -o-transform:rotate(45deg); 	/* Opera */
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+}
+.el-checkbox__inner{
+  z-index: 0;
+}
+.app-chart-checkbox .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+  background-color: #fff;
+}
+/*待完成状态*/
+.el-step__title.is-wait{
+  color: #9199B1;
+  font-weight: 300!important;
+}
+.is-wait .el-step__icon{
+  background:#9199B1;
+  color: #fff;
+  border-left: 3px solid #9199B1 ;
+  border-top: 3px solid #9199B1 ;
+  border-right: 3px solid #9199B1;
+  border-bottom: 3px solid #9199B1;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+}
+
+/*步骤条的线*/
+.el-step.is-horizontal .el-step__line{
+  background: none;
+  border-top: 3px dashed #9199B1;
+  top: 20px;
+}
+
+/* 表格的高度 */
+.el-table td, .el-table th{
+  padding: 7px 0;
+}
